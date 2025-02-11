@@ -105,6 +105,41 @@ a {
   }
 }
 
+@media (max-width: 768px) {
+  .banner {
+      height: 50vh; /* Reduz a altura do banner no celular */
+      background-size: contain; /* Faz a imagem caber sem cortes */
+      background-position: center top; /* Alinha no topo */
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+      background-image: url('images/boostlp-mobile.webp'); /* Imagem otimizada para mobile */
+  }
+}
+
+@media (max-width: 768px) {
+  .banner h1 {
+      font-size: 1.8rem; /* Texto menor */
+  }
+
+  .banner p {
+      font-size: 1rem;
+  }
+
+  .cta-button {
+      padding: 10px 20px;
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+      min-height: 300px; /* Garante que o banner tenha pelo menos 300px */
+      background-size: cover;
+  }
+}
 
 .footer {
   text-align: center;
