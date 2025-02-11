@@ -107,9 +107,10 @@ a {
 
 @media (max-width: 768px) {
   .banner {
-      height: 50vh; /* Reduz a altura do banner no celular */
-      background-size: contain; /* Faz a imagem caber sem cortes */
-      background-position: center top; /* Alinha no topo */
+      height: 50vh; /* Altura do banner = metade da tela */
+      background-size: cover; /* A imagem cobre o espaço sem deformar */
+      background-position: center; /* Mantém a imagem centralizada */
+      background-repeat: no-repeat; /* Evita repetições */
   }
 }
 
